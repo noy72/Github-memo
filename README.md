@@ -11,7 +11,7 @@ git checkout -b <branch name>
 ```
 git merge --no-ff <branch name>
 ```
-現在のブランチに，<branch name>をマージする．
+現在のブランチに，branch nameをマージする．
 コンフリクトしたら，編集してadd-\>commit．
 ```
 git log --graph
