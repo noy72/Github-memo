@@ -17,6 +17,14 @@ git merge --no-ff <branch name>
 git log --graph
 ```
 ブランチを図で表示
+```
+git push -u origin <branch name>
+```
+ブランチをリモートリポジトリに追加する
+```
+git checkout -b <branch name> <branch name in remote repo>
+```
+リモートのブランチをチェックアウトする
 
 ## コミットの変更
 ```
