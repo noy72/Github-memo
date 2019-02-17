@@ -45,3 +45,12 @@ git rebase -i HEAD~<number>
 http://<repo url>/compare
 ```
 ブランチ間の差分を見る
+
+## Pull request
+1. Fork
+1. Clone
+1. Branchの作成
+トピックブランチで作業する
+1. リモートブランチの作成
+ローカルのトピックブランチに対応するブランチを作る
+
