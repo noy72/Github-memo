@@ -40,6 +40,12 @@ git rebase -i HEAD~<number>
 ```
 最新コミットからnumberまでのコミットを対象として，コミットを変更する．
 
+## 検索
+```
+http://<repo url>/compare
+```
+ブランチ間の差分を見る
+
 ## Pull request
 1. Fork
 1. Clone
@@ -47,3 +53,4 @@ git rebase -i HEAD~<number>
 トピックブランチで作業する
 1. リモートブランチの作成
 ローカルのトピックブランチに対応するブランチを作る
+
