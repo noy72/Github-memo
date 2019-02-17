@@ -39,3 +39,9 @@ git commit --amend
 git rebase -i HEAD~<number>
 ```
 最新コミットからnumberまでのコミットを対象として，コミットを変更する．
+
+## 検索
+```
+http://<repo url>/compare
+```
+ブランチ間の差分を見る
