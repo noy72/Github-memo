@@ -39,3 +39,11 @@ git commit --amend
 git rebase -i HEAD~<number>
 ```
 最新コミットからnumberまでのコミットを対象として，コミットを変更する．
+
+## Pull request
+1. Fork
+1. Clone
+1. Branchの作成
+トピックブランチで作業する
+1. リモートブランチの作成
+ローカルのトピックブランチに対応するブランチを作る
