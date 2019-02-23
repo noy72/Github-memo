@@ -25,6 +25,10 @@ git push -u origin <branch name>
 git checkout -b <branch name> <branch name in remote repo>
 ```
 リモートのブランチをチェックアウトする
+```
+git branch -m <new branch name>
+```
+ブランチをリネームする
 
 ## コミットの変更
 ```
@@ -34,7 +38,7 @@ git reset --hard <commit id>
 ```
 git commit --amend
 ```
-コミットメッセージの修正
+コミット上書き．コミットメッセージの修正
 ```
 git rebase -i HEAD~<number>
 ```
